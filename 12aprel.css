@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 0 10vw;
+    position: fixed;
+    box-shadow: 0 0 12px 4px grey;
+}
+nav h1{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a{
+    padding-top: 15px;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+.sec1{
+    width:100%;
+    height: 40rem;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+}
+.img1{
+    width: 50%;
+    height: 20rem;
+    color: white;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+.img1 h1{
+    font-size:3rem;
+    text-align: center;
+}
+.img1 p{
+    margin-left: 8%;
+    font-size: 20px;
+}
+.img1 button{
+    width: 25%;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #f4623a;
+    color: white;
+    margin-left: 45%;
+    margin-top: 5%;
+    border: none;
+}
+.xett{
+    width: 6%;
+    height: 2px;
+    background-color: red;
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.sec2{
+    width: 100%;
+    height: 27rem;
+    border: 1px solid black;
+    background-color: #f4623a;
+    display: flex;
+    align-items: center;
+}
+.orrange{
+    width: 60%;
+    height: 20rem;
+    margin-left: 20%;
+    text-align: center;
+}
+.orrange button{
+    width: 17%;
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    color:black;
+    border: none;
+    margin-top: 2rem;
+}
+.orrange h1 {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.orrange p {
+    color: white;
+}
+.xett2{
+    width: 6%;
+    height: 2px;
+    background-color: white;
+    margin-bottom:3%;
+    margin-left: 47%;
+}
+.sec3{
+    width: 100%;
+    height: 30rem;
+    padding-top: 7%;
+}
+.ilkh1 h1{
+    text-align: center; 
+    margin-bottom: 2.5%;   
+}
+.xett4{
+    width: 5%;
+    height: 2px;
+    background-color: black;
+    margin-left: 48%;
+    margin-bottom: 2%;
+}
+.iconsdiv {
+    width:75%;
+    height: 20rem;
+    display: flex;
+    margin-top: 5%;
+    margin: auto;
+}
+.icon1{
+    width: 25%;
+    height:14rem;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 12px;
+}
+.icon1 i{
+    font-size: 40px;
+    color: #f4623a;
+    margin-bottom: 1rem;
+}
+.icon2{
+    width: 25%;
+    height:14rem;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 12px;
+}
+.icon2 i{
+    font-size: 40px;
+    color: #f4623a;
+    margin-bottom: 1rem;
+}
+.icon3{
+    width: 25%;
+    height:14rem;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 12px;
+}
+.icon3 i{
+    font-size: 40px;
+    color: #f4623a;
+    margin-bottom: 1rem;
+}
+.icon4{
+    width: 25%;
+    height:14rem;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 12px;
+}
+.icon4 i{
+    font-size: 40px;
+    color: #f4623a;
+    margin-bottom: 1rem;
+}
+.sec4{
+    width: 100%;
+    height: 32rem;
+}
+.images{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    width:33%;
+    height: 16rem;
+}
+.div1 img{
+    width: 100%;
+    height: 16rem;
+}
+.div2{
+    width:33%;
+    height: 150px;
+}
+.div2 img{
+    width: 100%;
+    height: 16rem;
+}
+.div3{
+    width:33%;
+    height:16rem;
+}
+.div3 img{
+    width: 100%;
+    height: 16rem;
+}
+.div4{
+    width:33%;
+    height: 16rem;
+}
+.div4 img{
+    width: 100%;
+    height: 16rem;
+}
+.div5{
+    width:33%;
+    height: 16rem;
+}
+.div5 img{
+    width: 100%;
+    height: 16rem;
+}
+.div6{
+    width:33%;
+    height:16rem;
+}
+.div6 img{
+    width: 100%;
+    height: 16rem;
+}
+.sec5{
+    width: 100%;
+    height: 19rem;
+    background-color: #212529;
+}
+.sec5 button{
+    width: 13%;
+    height: 49px;
+    border-radius: 30px;
+    background-color: white;
+    color:black;
+    border: none;
+    margin-left: 43%;
+}
+.sec5 h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 7rem;
+    margin-bottom: 25px;
+}
+.sec6 {
+    width: 100%;
+    height:47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 35%;
+    height:47rem;
+}   
+.xett3{
+    width: 7%;
+    height: 2px;
+    background-color: black;
+    margin-bottom:5%;
+    margin-top: 5%;
+    margin-left: 47%;
+}
+.footer h1{
+    text-align: center;
+    margin-top: 20%;
+}
+.footer p{
+    text-align: center;
+}
+.input1 {
+    width: 100%;
+    height: 3rem;
+    margin-top: 3rem;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.input2 {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.1rem;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.input3 {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.1rem;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.input4 {
+    width: 100%;
+    height: 6rem;
+    margin-top: 1.1rem;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+.sec6btn{
+    width: 100%;
+    height: 49px;
+    border-radius: 30px;
+    background-color: #f8997f;
+    color:white;
+    border: none;  
+    font-size: 15px; 
+    margin-top: 15px; 
+}
+.sec6 i{
+    font-size: 20px;
+    margin-left: 48%;
+    margin-top: 10%;
+    margin-top: 10px;
+}
+.footp{
+    margin-top: 8%;
+}
